@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminPagesController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -29,6 +30,8 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
 
-Route::get('/admin/dashboard', [HomepageController::class, 'index'])->name('homepage');
+Route::get('/admin/dashboard', [AdminPagesController::class, 'index'])->name('admin.dashboard');
+Route::get('/admin/interns', [AdminPagesController::class, 'internList'])->name('admin.interns');
+Route::get('/admin/intern/1', [AdminPagesController::class, 'internInfo'])->name('admin.intern');
 
 require __DIR__.'/auth.php';

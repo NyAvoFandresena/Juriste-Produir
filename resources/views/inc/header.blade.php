@@ -1,6 +1,6 @@
 <header class="w-full px-6 bg-white">
     <div class="container mx-auto max-w-4xl md:flex justify-between items-center">
-        <a href="/"
+        <a href="{{ route('homepage') }}"
             class="block py-6 w-full text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
             Juriste Produir
         </a>
