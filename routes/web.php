@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\AdminPagesController;
 use App\Http\Controllers\InternPagesController;
+use App\Http\Controllers\LogoutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,9 @@ Route::middleware('auth')->group(function () {
 
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
+
+// LOGS
+Route::post('/logout', [LogoutController::class,'logout'])->name('logout');
 
 // ADMIN
 Route::get('/admin/dashboard', [AdminPagesController::class, 'index'])->name('admin.dashboard');

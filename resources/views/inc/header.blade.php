@@ -6,10 +6,15 @@
         </a>
         <div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
             @guest
-                <a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Se connecter</a>
+                <a href="{{ route('login') }}" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Se connecter</a>
             @endguest
             @auth
-                <a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Se déconnecter</a>
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button type="submit">
+                        <div class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Se déconnecter</div>
+                    </button>
+                </form>
             @endauth
 
         </div>
