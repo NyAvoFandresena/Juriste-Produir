@@ -13,7 +13,7 @@
                 </path>
             </svg>
         </span>
-        <span class="tracking-wide text-lg px-2 m-2">Ajouter une Activité</span>
+        <span class="tracking-wide text-lg px-2 m-2">Modifier l'activité</span>
     </div>
     <div class="flex my-2 py-1">
     </div>
@@ -22,7 +22,7 @@
 {{-- ! DEBUT FORME --}}
 <!-- component -->
 <div class=" h-screen flex items-center justify-center">
-    <div class="max-w-md w-full  p-8 rounded-lg shadow-md">
+    <div class="max-w-md w-full p-8 rounded-lg shadow-md">
         <form class="p-6">
             <!-- Post Content Section -->
             <div class="mb-6">
@@ -44,12 +44,12 @@
             <div class="mb-6">
                 <label for="comment" class="block text-gray-700 text-sm font-bold mb-2">Commentaire:</label>
                 <textarea id="comment" name="comment" rows="4" class="w-full border-2 rounded-md px-4 py-2 leading-5 transition duration-150 ease-in-out sm:text-sm
-  sm:leading-5 resize-none focus:outline-none focus:border-blue-500" placeholder="Ajouter un commentaire à votre activité"></textarea>
+  sm:leading-5 resize-none focus:outline-none focus:border-blue-500" placeholder="Ajouter un commentaire à votre activité"> ancien activité</textarea>
             </div>
             
             <!-- Submit Button and Character Limit Section -->
             <div class="flex items-center justify-between">
-                <button type="submit" class="block  px-3 py-2  font-bold text-sm no-underline hover:shadow-lg bg-blue-600 text-white"> Ajouter   
+                <button type="submit" class="block  px-3 py-2  font-bold text-sm no-underline hover:shadow-lg bg-blue-600 text-white"> Mettre à Jour   
                 </button>  
             </div>
         </form>

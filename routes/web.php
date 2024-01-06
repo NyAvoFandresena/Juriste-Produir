@@ -40,5 +40,6 @@ Route::get('/admin/task/1', [AdminPagesController::class, 'taskInfo'])->name('ad
 // INTERNE
 Route::get('/intern/dashboard', [InternPagesController::class, 'index'])->name('intern.dashboard');
 Route::get('/intern/create', [InternPagesController::class,'create'])->name('intern.create');
+Route::get('/intern/modify/1', [InternPagesController::class,'modify'])->name('intern.modify');
 
 require __DIR__.'/auth.php';

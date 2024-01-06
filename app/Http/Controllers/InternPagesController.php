@@ -13,4 +13,8 @@ class InternPagesController extends Controller
     public function create() {
         return view('intern.createTask');
     }
+
+    public function modify() {
+        return view('intern.modify');
+    }
 }
