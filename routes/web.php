@@ -1,9 +1,10 @@
 <?php
 
-use App\Http\Controllers\AdminPagesController;
-use App\Http\Controllers\HomepageController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\AdminPagesController;
+use App\Http\Controllers\InternPagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,9 +31,13 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
 
+// ADMIN
 Route::get('/admin/dashboard', [AdminPagesController::class, 'index'])->name('admin.dashboard');
 Route::get('/admin/interns', [AdminPagesController::class, 'internList'])->name('admin.interns');
 Route::get('/admin/intern/1', [AdminPagesController::class, 'internInfo'])->name('admin.intern');
 Route::get('/admin/task/1', [AdminPagesController::class, 'taskInfo'])->name('admin.task');
+
+// INTERNE
+Route::get('/intern/dashboard', [InternPagesController::class, 'index'])->name('intern.dashboard');
 
 require __DIR__.'/auth.php';
