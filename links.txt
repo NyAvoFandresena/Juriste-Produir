@@ -1,0 +1,6 @@
+Tailwind layouts
+https://github.com/rosstopping/tailwindcss-templates/tree/master/layouts
+
+https://tailwindcomponents.com/component/projects-table
+
+https://tw-elements.com/docs/standard/navigation/tabs/
