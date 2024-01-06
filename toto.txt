@@ -1,0 +1,22 @@
+backend process:
+1) Auth:
+user roles
+user relationships
+login attemps
+logout attemps
+csrf protection 
+
+2) Database setup:
+tables - migrations and models
+table relationship
+
+3) Routes
+routing 
+redirecting 
+
+4) Front End connexion 
+Front end route mapping
+front end links mapping 
+front end database mapping
+
+5) Date and time 
