@@ -17,4 +17,8 @@ class AdminPagesController extends Controller
     public function internInfo() {
         return view('admin.interninfo');
     }
+
+    public function taskInfo() {
+        return view('admin.taskinfo');
+    }
 }

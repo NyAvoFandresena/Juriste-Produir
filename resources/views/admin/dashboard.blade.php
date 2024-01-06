@@ -142,7 +142,121 @@
             </div>
             {{-- !FIN SEMAINE --}}
 
+            <div class="ml-auto mb-6 lg:w-[5075%] xl:w-[80%] 2xl:w-[85%]">
+                <div class="sticky z-10 top-0 h-16 border-b bg-white lg:py-2.5">
+                    <h4>Semaine du 23/01/2024</h4>
+                </div>
+                <div class="px-6 pt-6 2xl:container">
+                    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                        {{-- !ACTIVITE --}}
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Traitement plainte
+                                        PAPS
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Tri de Phases
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">6</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Numérisation
+                                        d'adresses
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Réunion S.G
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Compte Rendu
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">8</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Dossier PAPs
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Visites Juridiques
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">1</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Descentes sur Terrain
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">7</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-2 lg:col-span-1">
+                            <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">
+                                <div>
+                                    <h5 class="text-xl text-gray-600 text-center">Autres
+
+                                    </h5>
+                                    <div class="mt-2 flex justify-center gap-4">
+                                        <h3 class="text-3xl font-bold text-gray-700">0</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- !FIN ACTIVITE SEMAINE --}}
+                    </div>
+                </div>
+            </div>
 
 
 
