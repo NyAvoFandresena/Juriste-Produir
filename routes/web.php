@@ -29,4 +29,6 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
 
+Route::get('/admin/dashboard', [HomepageController::class, 'index'])->name('homepage');
+
 require __DIR__.'/auth.php';
