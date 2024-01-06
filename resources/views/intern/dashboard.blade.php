@@ -13,7 +13,7 @@
                     </path>
                 </svg>
             </span>
-            <span class="tracking-wide text-lg px-2 m-2">Tableau de bord</span>
+            <span class="tracking-wide text-lg px-2 m-2">Tableau de Bord</span>
         </div>
         <div class="flex my-2 py-1">
         </div>

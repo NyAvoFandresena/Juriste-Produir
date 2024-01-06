@@ -9,4 +9,8 @@ class InternPagesController extends Controller
     public function index() {
         return view('intern.dashboard');
     }
+
+    public function create() {
+        return view('intern.createTask');
+    }
 }
