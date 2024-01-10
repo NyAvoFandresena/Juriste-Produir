@@ -34,7 +34,9 @@ Route::get('/', [HomepageController::class, 'index'])->name('homepage');
 
 // LOGS
 Route::post('/logout', [LogoutController::class,'logout'])->name('logout');
-
+Route::get('/login', function() {
+    return view('auth.reg');
+});
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     // ADMIN
